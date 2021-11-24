@@ -1,0 +1,51 @@
+.all-container {
+  align-items: center;
+  height: 300px;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+}
+.container {
+  justify-content: space-between;
+  align-items: center;
+  display: flex;
+  width: 100%;
+  padding-left: 30px;
+  background: rgb(146, 136, 165);
+  font-family: "Courier New", Courier, monospace;
+}
+
+.contaaliner:hover {
+  background-color: rgb(111, 82, 165);
+}
+
+.detail {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.details {
+  width: 60%;
+  padding-right: 30px;
+  line-height: normal;
+}
+
+.iframediv {
+  padding: 20px;
+  width: 40%;
+  height: 100%;
+  align-items: center;
+  display: flex;
+}
+
+iframe {
+  width: 100%;
+  height: 100%;
+}
+
+.title {
+  text-align: center;
+  font-family: Arial;
+}
